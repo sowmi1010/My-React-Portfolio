@@ -1,4 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
+import profile from "../assets/profile.jpg";
+
 
 export default function About() {
   return (
@@ -20,7 +22,7 @@ export default function About() {
       {/* left side image */}
       <div className="z-10">
         <img
-          src="/profile.jpg"
+          src={profile}
           alt="Sowmiya"
           className="
             w-40 sm:w-52 md:w-60 lg:w-72 xl:w-80

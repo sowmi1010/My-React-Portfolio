@@ -1,5 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import { Linkedin, Github, Mail } from "lucide-react";
+import profile from "../assets/profile.jpg";
+
 
 export default function Hero() {
   return (
@@ -18,7 +20,7 @@ export default function Hero() {
           Passionate Web Creator
         </p>
         <img
-          src="/profile.jpg"
+          src={profile}
           alt="Sowmiya"
           className="
             w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto mb-4
