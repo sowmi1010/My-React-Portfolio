@@ -65,8 +65,8 @@ export default function About() {
           />
         </div>
         <p className="text-sm sm:text-base mb-4 px-2 lg:px-0">
-          <span className="font-semibold text-yellow-600">Education:</span> Diploma in Computer Science, <br />
-          Dr. Dharmambal Government Polytechnic College for Women, Chennai (2017–2020).
+          <span className="font-semibold text-yellow-600">Education:</span> B.E in Computer Science Engineering, <br />
+         Arunai Engineering College
         </p>
         <a
           href="#skills"
